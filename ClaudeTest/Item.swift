@@ -1,18 +1,4 @@
-//
-//  Item.swift
-//  ClaudeTest
-//
-//  Created by Jim Ruiz on 2/28/26.
-//
+// This file is no longer used.
+// The app now uses City and Tile models instead.
 
 import Foundation
-import SwiftData
-
-@Model
-final class Item {
-    var timestamp: Date
-    
-    init(timestamp: Date) {
-        self.timestamp = timestamp
-    }
-}
